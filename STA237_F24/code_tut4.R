@@ -43,3 +43,10 @@ mean(simA[simB==1]) #option 2
 #Estimating prob. of B|A
 mean((simA+simB)==2)/mean(simA) #Option 1
 mean(simB[simA==1]) #Option 2
+
+
+
+############
+1/(exp(0.5)*(-4)*(exp(-2.5)-1))
+
+1/(exp(0.5)*(-4)*(exp(-2.5)-exp(-.5)))
